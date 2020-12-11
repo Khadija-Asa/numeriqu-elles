@@ -1,0 +1,49 @@
+// corif partner
+
+// images rights
+.image-rights p {
+  margin-bottom: 1em;
+}
+
+// partners
+// partners
+ .partners {
+   margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.partners img {
+  width: 65%;
+}
+
+.partner {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (min-width: 500px) { 
+  .partners img {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px) { 
+  // partners
+  .partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .partner {
+    height: 150px;
+  }
+
+  .partners img {
+    width: 45%;
+  }
+}
