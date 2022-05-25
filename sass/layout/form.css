@@ -1,0 +1,57 @@
+/*Contact*/
+.form-full {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+
+.form .rgpd p {
+  font-size: .8em;
+}
+
+.form {
+  margin: 0 auto;
+  background: #01f7ad;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(1, 247, 173, 0.664)), to(rgba(103, 50, 141, 0.61)));
+  background: linear-gradient(0deg, rgba(1, 247, 173, 0.664) 0%, rgba(103, 50, 141, 0.61) 100%);
+  background-size: cover;
+  padding: 10px;
+}
+
+.form input[type="checkbox"] {
+  float: left;
+  margin-right: 10px;
+}
+
+.form input[type="text"],
+.form textarea,
+.form button {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: bisque;
+  -webkit-box-shadow: 5px 5px 2px 1px rgba(228, 228, 237, 0.2);
+          box-shadow: 5px 5px 2px 1px rgba(228, 228, 237, 0.2);
+}
+
+button[type="submit"] {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .form-full {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .form {
+    padding: 50px;
+    width: 700px;
+  }
+}
+/*# sourceMappingURL=form.css.map */

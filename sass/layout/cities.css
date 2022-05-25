@@ -1,12 +1,12 @@
+@charset "UTF-8";
 /*Cities*/
 .workshop p {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .workshops-images {
-  background: center / cover no-repeat url(images/image1.png);
+  background: center/cover no-repeat url(images/image1.png);
   height: 260px;
-
   border-radius: 7px;
 }
 
@@ -36,7 +36,6 @@
 
 .container-video {
   width: 100%;
-
   margin: 0 auto;
 }
 
@@ -44,28 +43,34 @@
   width: 100%;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .workshops {
+    display: -ms-grid;
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
     grid-gap: 30px;
   }
-
   .container-video {
     width: 560px;
   }
-
   .container-rotate {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
 }
 
-@media only screen and (min-width: 900px){ 
+@media only screen and (min-width: 900px) {
   .informations-cities {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
 }
+/*# sourceMappingURL=cities.css.map */

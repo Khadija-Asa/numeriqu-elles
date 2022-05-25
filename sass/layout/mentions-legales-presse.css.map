@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,oBAAoB;AACpB,AAAA,iBAAiB;AACjB,OAAO,CAAC;EACN,MAAM,EAAE,IAAI;CACb;;AACD,AAAA,iBAAiB,CAAC,CAAC;AACnB,OAAO,CAAC,CAAC,CAAC;EACR,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CACpB;;AACD,AAAA,YAAY,CAAC;EACX,eAAe,EAAE,OAAO;CACzB;;AACD,AAAA,YAAY,CAAC,EAAE,CAAC;EACd,YAAY,EAAE,GAAG;CAClB;;AACD,AAAA,CAAC,CAAC;EACA,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "mentions-legales-presse.scss"
+    ],
+    "names": [],
+    "file": "mentions-legales-presse.css"
+}
